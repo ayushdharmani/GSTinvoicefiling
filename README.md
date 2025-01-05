@@ -1,6 +1,6 @@
 **GST Filing System 📑💻**
 
-This project is designed to automate the process of GST filing them with the government, making it easier for businesses to stay compliant with tax regulations. It integrates with Firebase and uses Firestore, a cloud-based database, to track bookings and calculate the applicable Goods and Services Tax (GST) for each booking.
+This project is designed to automate the process of GST filing them with government, making it easier for businesses to stay compliant with tax regulations. It integrates with Firebase and uses Firestore, a cloud-based database, to track bookings and calculate the applicable Goods and Services Tax (GST) for each booking.
 
 Here’s how it works:
 
