@@ -27,7 +27,7 @@
       "host": "localhost",
       "port": 8080
     },
-    "ui": {
+    "ui": { 
       "enabled": true
     },
     "singleProjectMode": true

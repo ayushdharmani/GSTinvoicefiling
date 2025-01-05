@@ -2,7 +2,7 @@ const axios = require('axios');
 // Function to calculate GST, separating it into IGST and SGST/CGST
 function calculateGST(totalAmount) {
   const gstRate = 0.18; // 18% GST
-  const totalGST = totalAmount * gstRate;
+  const totalGST = totalAmount * gstRate; 
 
   const IGST = (totalGST / 2).toFixed(3); // Round to 3 decimal places
   const SGST_CGST = (totalGST / 2).toFixed(3); // Round to 3 decimal places
