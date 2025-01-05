@@ -1,8 +1,6 @@
 const functions = require('firebase-functions');
 const admin = require('firebase-admin');
-const axios = require('axios');
 const { calculateGST, sendToGSTAPI } = require('./gstUtils');
-const firestoreConfig = require('../config/firestore_config.json');
 const gstApiConfig = require('../config/gst_api_config.json');
 
 admin.initializeApp();
